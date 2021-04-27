@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Config;
 use LaravelEnso\Addresses\Models\Address;
 use Symfony\Component\HttpKernel\Exception\ConflictHttpException;
 
+/**
+ * @deprecated
+ */
 trait Addressable
 {
     public static function bootAddressable()
